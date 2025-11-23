@@ -14,11 +14,11 @@ public class StrokeUI {
     public static void main(String[] args) {
 
         JFrame frame = new JFrame("Stroke UI");
-        frame.setLayout(new GridLayout(2, 4));
         frame.setSize(1000, 1000);
 
         StrokeUIData Data1 = new StrokeUIData();
         List<Diagnosis> diagnoses = Data1.getDiagnoses();
+        frame.setLayout(new GridLayout(diagnoses.size(), 4));
 
         for (Diagnosis d : diagnoses) {
 

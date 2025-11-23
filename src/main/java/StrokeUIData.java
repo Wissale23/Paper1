@@ -32,6 +32,6 @@ public class StrokeUIData {
     }
 
     public List<Diagnosis> getDiagnoses() {
-        return diagnoses;
+        return diagnoses;//remember thisss
     }
 }
