@@ -1,11 +1,11 @@
 package examinationdata;
 
 public class MRI {
-    private String MRIurl;
+    private String MRIurl; //private String[] MRIurls;  // array of URLs
     private String MFS;
 
 
-    public MRI(String MFS, String MRIurl) {
+    public MRI(String MFS, String MRIurl) {  //String[] MRIurls for multiple
         this.MFS = MFS;
         this.MRIurl = MRIurl;
     }
@@ -19,3 +19,8 @@ public class MRI {
     }
 
 }
+
+ //String[] MRIurls for multiple
+    public String[] getMRIURLs() {
+        return MRIurls;
+    }
