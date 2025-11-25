@@ -37,3 +37,16 @@ public class StrokeUI {
         });
     }
 }
+
+
+
+
+// Only create JLabel if there are notes
+if (d.getNotes() != null && !d.getNotes().isEmpty()) {
+    frame.add(new displayData...)
+}
+
+for (i=0,i<d.getURLS.size(),i++){
+
+    d.getURLS.get(i)
+}
